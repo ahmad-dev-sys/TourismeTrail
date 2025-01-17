@@ -1,0 +1,97 @@
+.footer{
+    background-color: brown;
+    display: flex;
+    margin-top: 10%;
+
+}
+nav{
+    display: flex;
+    list-style: none;
+   background-color: brown;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+a{
+    color: white;
+}
+.p{
+    padding-left: 250px;
+}
+h1{
+    text-align: center;
+}
+.S{ display: inline-flex;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.D{
+    width: 300px;
+    height: 200px; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.I{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.P{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.G{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.J{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.im{
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+#texte{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid grey;
+    box-shadow: 0px 0px 0px 10px white;
+}
+body{ margin: auto;
+    
+    background-color: bisque;
+}
+.square{
+    list-style-type: none;
+    text-align: justify;
+    color: black;
+}
+H1{
+    color: black;
+    text-align: center;
+}
+.footer{
+    background-color: brown;
+    display: flex;
+    margin-top: 20px;
+}
+.p{
+    padding-left: 250px;
+    color: white;
+}
+.nav{
+    display: flex;
+    list-style: none;
+   background-color: brown;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

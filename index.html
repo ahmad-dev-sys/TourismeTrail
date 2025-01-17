@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <div class="bloc">
+    <video autoplay controls muted="" loop="Infinite" src="Images\1226.mp4"></video>
+</div>
+<section>
+<content class="b">
+<nav class="nav">
+  <li><a href="index.html">Accueil</a></li>
+  <li><a href="Services.html">Services</a></li>
+  <li><a href="Destinations.html">Destinations</a></li>
+</nav>
+</content>
+<div>
+<h1 class="c">L'Escapade de Vos Reves Commence Ici.</h1>
+</div>
+</section>
+<p class="p">
+Bienvenue sur Notre Site de tourisme ! Que vous soyez un voyageur passionné à la recherche de nouvelles aventures ou simplement curieux de découvrir des destinations fascinantes, vous êtes au bon endroit. Plongez dans un monde virtuel à travers des lieux emblématiques, des villes vibrantes et des trésors cachés qui vous transporteront aux quatres coins de la planète.De l'histoire ancienne aux paysages époustouflants, nous vous invitons à découvrir la diversité et la beauté de notre monde à travers des récits captivants, des guides pratiques et des conseils de voyages avisés.
+</p>
+<form id="searchForm" onsubmit="return handleSearch()">
+  <p>
+      <input type="text" name="recherche" placeholder="Tapez ici pour rechercher" autofocus="" class="defini" id="searchInput">
+      <button type="submit" class="tion">Rechercher</button>
+  </p>
+</form>
+<script>
+  function handleSearch() {
+var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+switch (searchTerm) {
+   case 'paris':
+       window.location.href = 'paris.html';
+       break;
+   case 'istanbul':
+       window.location.href = 'istanbul.html';
+       break;
+       case 'dubai':
+        window.location.href = 'dubai.html';
+        break;
+   case 'merveilles antiques':
+       window.location.href = '7merveilles.html';
+       break;
+   case 'grèce':
+       window.location.href = 'grèce.html';
+       break;
+   case 'japon':
+       window.location.href = 'Japon.html';
+       break; 
+   default:
+       alert('Page not found for search term: ' + searchTerm);
+       break;
+}
+
+return false; 
+}
+
+</script>
+
+<div class="im">
+      <div>
+           <a href="7merveilles.html"><img class="S" src="Images\7merveilles.jpeg" alt=""></a>
+           <a href="paris.html"><img class="P" src="Images\Paris.jpg" alt=""></a>
+      </div>
+      
+      <div>
+        <a href="dubai.html"><img class="D" src="Images\Dubai.jpg" alt=""></a>
+        <a href="grèce.html"><img class="G" src="Images\Grèce.jpg" alt=""></a>
+      </div>
+      <div>
+           <a href="istanbul.html"><img class="I" src="Images\Istanbul.jpg" alt=""></a>
+           <a href="japon.html"><img class="J" src="Images\Japon.jpg" alt=""></a>
+      </div>
+</div>
+<footer class="footer">
+Contact 
+<ul>
+<li>+22991570656</li> 
+<li>+221784779423</li>
+<li>+221787883674</li>
+</ul>
+<a href="Apropos.html">A propos</a>
+<a href="Commentaires.html">Commentaires</a>
+<a href="formulaire.html">Formulaire</a>
+</footer>
+</body>
+</html>
